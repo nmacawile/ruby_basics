@@ -9,7 +9,7 @@ def evenFibonacci limit
 
 	puts sequence.each_even.join ' '
 
-	puts "Sum of all even numbers: "+sequence.each_even.inject(0,:+).to_s
+	puts "Sum of all even Fibonacci numbers: "+sequence.each_even.inject(0,:+).to_s
 end
 
 class Array	
